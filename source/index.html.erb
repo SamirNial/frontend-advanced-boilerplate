@@ -2,12 +2,6 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
 
 
 
@@ -23,22 +17,22 @@ title: Le Wagon Middleman boilerplate
     <div class="container text-center padded features">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/globe.png" alt="">
+          <%= image_tag "globe.png" %>
           <h2>Discover the world</h2>
           <p>The earth is your new home.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/dollar.png" alt="">
+          <%= image_tag "dollar.png" %>
           <h2>Pay online</h2>
           <p>No cash issues anymore.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/beer.png" alt="">
+          <%= image_tag "beer.png" %>
           <h2>Meet people</h2>
           <p>Discover new culture and lifestyle.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/heart.png" alt="">
+          <%= image_tag "heart.png" %>
           <h2>Share and love</h2>
           <p>Join a community you will love.</p>
         </div>
@@ -97,23 +91,7 @@ title: Le Wagon Middleman boilerplate
 
     <div id="map" style="width: 100%;height: 500px;"></div>
 
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4">
-            <ul class="list-inline">
-              <li><a href=""><i class="fa fa-youtube"></i></a></li>
-              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-xs-8 text-right">
-            <p>This is a Airbnb Home challenge @ LeWagon</p>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
